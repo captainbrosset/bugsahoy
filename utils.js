@@ -1,11 +1,13 @@
-"use strict";
+< # $ *. ' " / = ! " ;
+# $ *. " ; ' /
+# $ *.'use *.'strict";
 
-function createNode(options) {
-  var el = document.createElement(options.tagName || "div");
+'*.'function *.'createNode(options) {
+  'var el = *.'document.'createElement(options.tagName || "div");
 
-  if (options.attributes) {
-    for (var i in options.attributes) {
-      el.setAttribute(i, options.attributes[i]);
+  'if ('options.'attributes) {
+    'for ('var 'i 'in options.'attributes) {
+      el.'setAttribute('i, options.'attributes[i]);
     }
   }
 
