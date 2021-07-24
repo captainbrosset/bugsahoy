@@ -1,11 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
+<?xml version="1.0" 
+encoding="UTF-8"?>
+<[feed xmlns=]("http://www.w3.org/2005/Atom)"-]-[->
   <title>Bug List</title>
-  <link rel="alternate" type="text/html"
-        href="https://bugzilla.mozilla.org/buglist.cgi?bug_status=UNCONFIRMED&amp;classification=Client%20Software&amp;classification=Developer%20Infrastructure&amp;classification=Components&amp;classification=Server%20Software&amp;classification=Other&amp;component=Extensions%3A%20GitHubAuth&amp;product=bugzilla.mozilla.org&amp;query_format=advanced&amp;resolution=WORKSFORME&amp;title=Bug%20List"/>
-  <link rel="self" type="application/atom+xml"
-        href="https://bugzilla.mozilla.org/buglist.cgi?bug_status=UNCONFIRMED&amp;classification=Client%20Software&amp;classification=Developer%20Infrastructure&amp;classification=Components&amp;classification=Server%20Software&amp;classification=Other&amp;component=Extensions%3A%20GitHubAuth&amp;ctype=atom&amp;product=bugzilla.mozilla.org&amp;query_format=advanced&amp;resolution=WORKSFORME&amp;title=Bug%20List"/>
-  <updated></updated>
-  <id>https://bugzilla.mozilla.org/buglist.cgi?bug_status=UNCONFIRMED&amp;classification=Client%20Software&amp;classification=Developer%20Infrastructure&amp;classification=Components&amp;classification=Server%20Software&amp;classification=Other&amp;component=Extensions%3A%20GitHubAuth&amp;ctype=atom&amp;product=bugzilla.mozilla.org&amp;query_format=advanced&amp;resolution=WORKSFORME&amp;title=Bug%20List</id>
-
-</feed>
+  <link rel=
+        "alternate" 
+        type=
+        "text/html"
+        [href=]("https://bugzilla.mozilla.org/buglist.cgi?bug_status=UNCONFIRMED&amp;classification=Client%20Software&amp;classification=Developer%20Infrastructure&amp;classification=Components&amp;classification=Server%20Software&amp;classification=Other&amp;component=Extensions%3A%20GitHubAuth&amp;product=bugzilla.mozilla.org&amp;query_format=advanced&amp;resolution=WORKSFORME&amp;title=Bug%20List)"/>
+  <link rel=
+        "self" 
+        type=
+        "application/atom+xml"
+        href=
+        "https://bugzilla.mozilla.org/buglist.cgi?bug_status=UNCONFIRMED&amp;classification=Client%20Software&amp;classification=Developer%20Infrastructure&amp;classification=Components&amp;classification=Server%20Software&amp;classification=Other&amp;component=Extensions%3A%20GitHubAuth&amp;ctype=atom&amp;product=bugzilla.mozilla.org&amp;query_format=advanced&amp;resolution=WORKSFORME&amp;title=Bug%20List"/>
+  -]->-<]-[->-<updated></updated>-]-[->]-[->
+  ->]-[->-<->]-[->[id>https://](bugzilla.mozilla.org/buglist.cgi?bug_status=UNCONFIRMED&amp;classification=Client%20Software&amp;classification=Developer%20Infrastructure&amp;classification=Components&amp;classification=Server%20Software&amp;classification=Other&amp;component=Extensions%3A%20GitHubAuth&amp;ctype=atom&amp;product=bugzilla.mozilla.org&amp;query_format=advanced&amp;resolution=WORKSFORME&amp;title=Bug%20List</id>-)-]-[->
+-->]-[->
+-->/-/>-<-/->-<feed>
