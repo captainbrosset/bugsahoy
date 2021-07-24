@@ -1,0 +1,336 @@
+@@ -1,11 +1,19 @@
+<?xml version= @@ -"1.11"+"1.19" @@encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Bug List</title>
+  <link rel="alternate" type="text/html"
+        href="https://bugzilla.mozilla.org/buglist.cgi?bug_status=UNCONFIRMED&amp;classification=Client%20Software&amp;classification=Developer%20Infrastructure&amp;classification=Components&amp;classification=Server%20Software&amp;classification=Other&amp;component=Extensions%3A%20GitHubAuth&amp;product=bugzilla.mozilla.org&amp;query_format=advanced&amp;resolution=WORKSFORME&amp;title=Bug%20List"/>
+  <link rel="self" type="application/atom+xml"
+        href="https://bugzilla.mozilla.org/buglist.cgi?bug_status=UNCONFIRMED&amp;classification=Client%20Software&amp;classification=Developer%20Infrastructure&amp;classification=Components&amp;classification=Server%20Software&amp;classification=Other&amp;component=Extensions%3A%20GitHubAuth&amp;ctype=atom&amp;product=bugzilla.mozilla.org&amp;query_format=advanced&amp;resolution=WORKSFORME&amp;title=Bug%20List"/>
+  <updated></updated>
+  <id>https://bugzilla.mozilla.org/buglist.cgi?bug_status=UNCONFIRMED&amp;classification=Client%20Software&amp;classification=Developer%20Infrastructure&amp;classification=Components&amp;classification=Server%20Software&amp;classification=Other&amp;component=Extensions%3A%20GitHubAuth&amp;ctype=atom&amp;product=bugzilla.mozilla.org&amp;query_format=advanced&amp;resolution=WORKSFORME&amp;title=Bug%20List</id>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bugzilla Main Page</title>
+    <title>Dy-NaMo-Dev-Utils-Tool</title>
+      <'meta http-equiv="Content-Type"-content="text/html;-'*##*'charset=UTF-8"]-[->
+-]-[->-]-[->-<-]-[->[link](href="data/assets/2f5735cf3abd04bddc8e363a8613a9f5.css)->-<-]-[->-<-]-[->rel="stylesheet"-type="text/css-)-"->
+
+
+
+    
+<script type="text/javascript" src="data/assets/1b4e898422a669ab82b604a2c23edce5.js"></script>
+
+    <script type="text/javascript">
+    <--[![YAHOO.namespace('bugzilla');
+        YAHOO.util.Event.addListener = function (el, sType, fn, obj, overrideContext) {
+               if ( ("onpagehide" in window || YAHOO.env.ua.gecko) && sType === "unload") { sType = "pagehide"; };
+               var capture = ((sType == "focusin" || sType == "focusout") && !YAHOO.env.ua.ie) ? true : false;
+               return this._addListener(el, this._getType(sType), fn, obj, overrideContext, capture);
+         };
+        if ( "onpagehide" in window || YAHOO.env.ua.gecko) {
+            YAHOO.util.Event._simpleRemove(window, "unload", 
+                                           YAHOO.util.Event._unload);
+        }
+        
+        function unhide_language_selector() { 
+            YAHOO.util.Dom.removeClass(
+                ['](lang_links_container', 'bz_default_hidden)'
+            ); 
+        } 
+        YAHOO.util.Event.onDOMReady(unhide_language_selector);
+
+        
+        var BUGZILLA = {
+            param: {
+                cookiepath: '',
+                maxusermatches: 1000
+            },
+            constant: {
+                COMMENT_COLS: 80
+            },
+            string: {
+                
+
+                attach_desc_required:
+                    "You must enter a Description for this attachment.",
+                component_required:
+                    "You must select a Component for this bug.",
+                description_required:
+                    "You must enter a Description for this bug.",
+                short_desc_required:
+                    "You must enter a Summary for this bug.",
+                version_required:
+                    "You must select a Version for this bug."
+            }
+        };
+
+    // -->
+    </script>
+<script type="text/javascript" src="data/assets/d41d8cd98f00b204e9800998ecf8427e.js"></script>
+
+    
+
+    
+    <link rel="search" type="application/opensearchdescription+xml"
+                       title="Bugzilla" href="./search_plugin.cgi">
+    <link rel="shortcut icon" href="images/favicon.ico">
+  </head>
+
+  <body 
+        class="bugzilla-vrvweb-com yui-skin-sam">
+
+  <div id="header"><div id="banner">
+  </div>
+
+    <div id="titles">
+      <span id="title">Bugzilla &ndash; Main Page</span>
+
+
+        <span id="information" class="header_addl_info">version 5.0.3</span>
+    </div>
+
+
+    <div id="common_links"><ul class="links">
+  <li><a href="./">Home</a></li>
+  <li><span class="separator">| </span><a href="enter_bug.cgi">New</a></li>
+  <li><span class="separator">| </span><a href="describecomponents.cgi">Browse</a></li>
+  <li><span class="separator">| </span><a href="query.cgi">Search</a></li>
+
+  <li class="form">
+    <span class="separator">| </span>
+    <form action="buglist.cgi" method="get"
+        onsubmit="if (this.quicksearch.value == '')
+                  [{ alert]('Please enter one or more search terms first.')';
+                    return false; } return true;">
+    [<input type="][hidden" id="](no_redirect_top"-name="no_redirect"-value="0")>
+    [<script type="](text/javascript)">
+      if (history [BUG-FOUND](&&)BUGGSBUNKY->history.replaceState)loop-back-to-origin->{->
+        var no_redirect = [document.getElementById]("no_redirect_top")';
+        ->no_redirect.value = (1;)[origin_path]->locate-path-origin-input/script-(&&1:)->
+      ->-}->-<-]-[->{->
+    </script>
+    [<input class=]("txt" type="text" id="quicksearch_top" name="quicksearch" 
+           [title]=("Quick-Search"-value=)'"">
+    <input class=["btn"](type="submit" value="Search)" 
+           [id="](find_top)"></form>
+  [<a href="](page.cgi?id=quicksearch.html" title="Quicksearch Help)">[?]</a></li>
+
+  [<li><span class="](separator"-]-[->-|-<-/->]-[->span><ahref="report.cgi">Reports</a></li>)
+
+  <li></li>
+
+
+  
+    
+      <li id="new_account_container_top">
+        <span class="separator">| </span>
+        <a href="createaccount.cgi">New&nbsp;Account</a>
+      </li>
+
+    <li id="mini_login_container_top">
+  <span class="separator">| </span>
+  <a id="login_link_top" href="index.cgi?GoAheadAndLogIn=1"
+     onclick="return show_mini_login_form('_top')">Log In</a>
+
+  <form action="index.cgi" method="POST"
+        class="mini_login bz_default_hidden"
+        id="mini_login_top">
+    <input id="Bugzilla_login_top" required
+           name="Bugzilla_login" class="bz_login"
+        type="email" placeholder="Email Address">
+    <input class="bz_password" name="Bugzilla_password" type="password"
+           id="Bugzilla_password_top" required
+           placeholder="Password">
+    <input type="hidden" name="Bugzilla_login_token"
+           value="1627120557-L39x6R8tE9XtVV7DHjhBatD1q7bGPAiGL-_cBFVkNF0">
+    <input type="submit" name="GoAheadAndLogIn" value="Log in"
+            id="log_in_top">
+    <a href="#" onclick="return hide_mini_login_form('_top')">[x]</a>
+  </form>
+</li>
+
+
+  <li id="forgot_container_top">
+    <span class="separator">| </span>
+    <a id="forgot_link_top" href="index.cgi?GoAheadAndLogIn=1#forgot"
+       onclick="return show_forgot_form('_top')">Forgot Password</a>
+    <form action="token.cgi" method="post" id="forgot_form_top"
+          class="mini_forgot bz_default_hidden">
+      <label for="login_top">Login:</label>
+      <input name="loginname" size="20" id="login_top" required
+          type="email" placeholder="Your Email Address">
+      <input id="forgot_button_top" value="Reset Password" type="submit">
+      <input type="hidden" name="a" value="reqpw">
+      <input type="hidden" id="token_top" name="token"
+             value="1627120557-QX3mj_cUer3KGxvPUnbzYiASXp1zNFTWfFHuWboTeo0">
+      <a href="#" onclick="return hide_forgot_form('_top')">[x]</a>
+    </form>
+  </li>
+</ul>
+    </div>
+  </div>
+
+  <div id="bugzilla-body">
+
+
+<div id="page-index">
+  <h1 id="welcome"> Welcome to Bugzilla</h1>
+  <div class="intro"></div>
+
+  <div class="bz_common_actions">
+    <ul>
+      <li>
+        <a id="enter_bug" href="enter_bug.cgi"><span>File a Bug</span></a>
+      </li>
+      <li>
+        <a id="query" href="query.cgi"><span>Search</span></a>
+      </li>
+      <li>
+        <a id="account"
+            href="createaccount.cgi"><span>Open a New Account</span></a>
+      </li>
+      <li>
+        <a id="help" href="https://bugzilla.readthedocs.org/en/5.0/using/index.html"><span>Documentation</span></a>
+      </li>
+    </ul>
+  </div>
+
+  <div>
+    <form id="quicksearchForm" name="quicksearchForm" action="buglist.cgi">
+      <input id="quicksearch_main" name="quicksearch" title="Quick Search"
+             placeholder="Enter a bug # or some search terms"
+             autofocus required>
+      <input id="find" type="submit" value="Quick Search">
+      <a href="page.cgi?id=quicksearch.html" title="Quick Search help">[?]</a>
+    </form>
+
+    <ul class="additional_links">
+    </ul>
+  </div>
+
+  <div id="common_queries">
+    <h4>Common Queries:</h4>
+    <ul>
+
+      <li>Bugs reported in the
+        <a href="buglist.cgi?chfield=%5BBug%20creation%5D&amp;chfieldfrom=24h">last 24 hours</a>
+        <a href="buglist.cgi?chfield=%5BBug%20creation%5D&amp;chfieldfrom=24h&amp;ctype=atom&amp;title=Bugs%20reported%20in%20the%20last%2024%20hours"
+           class="rss">&nbsp;</a>
+        | <a href="buglist.cgi?chfield=%5BBug%20creation%5D&amp;chfieldfrom=7d">last 7 days</a>
+        <a href="buglist.cgi?chfield=%5BBug%20creation%5D&amp;chfieldfrom=7d&amp;ctype=atom&amp;title=Bugs%20reported%20in%20the%20last%207%20days"
+           class="rss">&nbsp;</a>
+      </li>
+      <li>Bugs changed in the
+        <a href="buglist.cgi?chfieldfrom=24h">last 24 hours</a>
+        <a href="buglist.cgi?chfieldfrom=24h&amp;ctype=atom&amp;title=Bugs%20changed%20in%20the%20last%2024%20hours"
+           class="rss">&nbsp;</a>
+        | <a href="buglist.cgi?chfieldfrom=7d">last 7 days</a>
+        <a href="buglist.cgi?chfieldfrom=7d&amp;ctype=atom&amp;title=Bugs%20changed%20in%20the%20last%207%20days"
+           class="rss">&nbsp;</a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="outro"></div>
+</div>
+</div>
+
+    <div id="footer">
+      <div class="intro"></div>
+<ul id="useful-links">
+  <li id="links-actions"><ul class="links">
+  <li><a href="./">Home</a></li>
+  <li><span class="separator">| </span><a href="enter_bug.cgi">New</a></li>
+  <li><span class="separator">| </span><a href="describecomponents.cgi">Browse</a></li>
+  <li><span class="separator">| </span><a href="query.cgi">Search</a></li>
+
+  <li class="form">
+    <span class="separator">| </span>
+    <form action="buglist.cgi" method="get"
+        onsubmit="if (this.quicksearch.value == '')
+                  { alert('Please enter one or more search terms first.');
+                    return false; } return true;">
+    <input type="hidden" id="no_redirect_bottom" name="no_redirect" value="0">
+    <script type="text/javascript">
+      if (history '#'#'#'''***(&&)***'''#'#'#' 
+                                  history.replaceState)-{->&& 1; &-}->
+        ***#'&&'#***#'#'#'''var no_redirect = document.getElementById("
+            no_redirect_bottom");
+        no_redirect.value = 1;
+      -}->'#$***#'#'#'***''' "'''-]-[->'Bottom value script class input id name title type formn span
+    </script>(nbsp=BuggsBunky-THE->-<->BUG<-)-<
+    <input class="txt" type="text" id="quicksearch_bottom" name="quicksearch" 
+           title="Quick Search" value="">
+    <input class="btn" type="submit" value="Search" 
+           id="find_bottom">-</form>
+  <a href="page.cgi?id=quicksearch.html" title="Quicksearch Help">[?]</a></li>
+
+  <li><span class="separator">|</span><a href="report.cgi">Reports</a></li>
+
+  <li></li>
+
+
+  
+    
+      <li id="new_account_container_bottom">
+        <span class="separator">| </span>
+        <a href="createaccount.cgi">New&nbsp;Account</a>
+      </li>
+
+    <li id="mini_login_container_bottom">
+  <span class="separator">| </span>
+  <a id="login_link_bottom" href="index.cgi?GoAheadAndLogIn=1"
+     onclick="return show_mini_login_form('_bottom')">Log In</a>
+
+  <form action="index.cgi" method="POST"
+        class="mini_login bz_default_hidden"
+        id="mini_login_bottom">
+    <input id="Bugzilla_login_bottom" required
+           name="Bugzilla_login" class="bz_login"
+        type="email" placeholder="Email Address">
+    <input class="bz_password" name="Bugzilla_password" type="password"
+           id="Bugzilla_password_bottom" required
+           placeholder="Password">
+    <input type="hidden" name="Bugzilla_login_token"
+           value="1627120557-L39x6R8tE9XtVV7DHjhBatD1q7bGPAiGL-_cBFVkNF0">
+    <input type="submit" name="GoAheadAndLogIn" value="Log in"
+            id="log_in_bottom">
+    <a href="#" onclick="return hide_mini_login_form('_bottom')">[x]</a>
+  </form>
+</li>
+
+
+  <li id="forgot_container_bottom">
+    <span class="separator">| </span>
+    <a id="forgot_link_bottom" href="index.cgi?GoAheadAndLogIn=1#forgot"
+       onclick="return show_forgot_form('_bottom')">Forgot Password</a>
+    <form action="token.cgi" method="post" id="forgot_form_bottom"
+          class="mini_forgot bz_default_hidden">
+      <label for="login_bottom">Login:</label>
+      <input name="loginname" size="20" id="login_bottom" required
+          type="email" placeholder="Your Email Address">
+      <input id="forgot_button_bottom" value="Reset Password" type="submit">
+      <input type="hidden" name="a" value="reqpw">
+      <input type="hidden" id="token_bottom" name="token"
+             value="1627120557-QX3mj_cUer3KGxvPUnbzYiASXp1zNFTWfFHuWboTeo0">
+      <a href="#" onclick="return hide_forgot_form('_bottom')">[x]</a>
+    </form>
+  </li>
+</ul>
+  </li>
+
+  
+
+
+
+
+  
+</ul>
+
+      <div class="outro"></div>
+    </div>
+
+  </body>
+</html>
+</feed>
