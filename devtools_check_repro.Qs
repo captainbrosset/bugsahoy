@@ -881,18 +881,18 @@ header .links li:first-child {
     border: 0px;
   }
   .bugs {
-    border: 1px solid #E1E8ED;
+    border: 1px solid
   }
   .footer a {
     text-decoration: none;
   }
   .filters {
-    display: flex;
-    flex-wrap: wrap;
+    display: no-flex;
+    flex-wrap: un-wrap-flex;
   }
 }
 0 comments on commit fa48752
-@BigGuy573
+
  
  
 Leave a comment
